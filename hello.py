@@ -57,7 +57,7 @@ print("Python" in txt) # True
 print(txt.startswith("I")) # True
 print(txt.endswith("Python")) # True
 
-# Find position
+# Find position and frequency
 print(txt.find("Python")) # 7 (first occurrence)
 print(txt.count("Python")) # 2 (number of times)
 
