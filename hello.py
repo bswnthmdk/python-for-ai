@@ -48,7 +48,7 @@ print(text.upper()) # "PYTHON PROGRAMMING"
 print(text.title()) # "Python Programming"
 
 text = "$$ Python $ Progra$mming$$"
-print(text.strip("$"))  # removes leading and trailing. -> "Python $ Progra$mming"
+print(text.strip("$"))  # removes leading and trailing '$' not spaces. -> "Python $ Progra$mming"
 
 txt = "I love Python programming with Python"
 

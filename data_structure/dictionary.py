@@ -36,7 +36,7 @@ person["age"] = 60 # Update existing
 del person["email"] # Remove by key
 age = person.pop("age") # Remove and return
 print(age) # 60
-person.clear() # Remove all item
+# person.clear() # Remove all item
 
 # Get all keys, values, or items
 print(person.keys())    # dict_keys(['name', 'age', 'city'])
