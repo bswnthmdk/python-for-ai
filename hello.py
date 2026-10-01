@@ -8,10 +8,10 @@ temperature = 30
 if temperature >= 30:
     print("It's hot")
 
-txt_var = "25" # string
-int_var = 25_25_22_525 # integer
-float_var = 2.5 # float
-bool_var = False # boolean
+txt_var = "25"  # string
+int_var = 25_25_22_525  # integer
+float_var = 2.5  # float
+bool_var = False  # boolean
 
 print(f"This is string {txt_var}")
 print(f"This is integer {int_var}")
@@ -25,7 +25,7 @@ print(type(float_var))
 print(type(bool_var))
 
 
-print(11//3) # round and down
+print(11 // 3)  # round and down
 
 # Conditional statements
 
@@ -36,30 +36,32 @@ else:
 
 # Repetition
 
-str = '*' * 10
+str = "*" * 10
 print(str)
 
 # String methods
 
 text = "Python Programming"
 
-print(text.lower()) # "python programming"
-print(text.upper()) # "PYTHON PROGRAMMING"
-print(text.title()) # "Python Programming"
+print(text.lower())  # "python programming"
+print(text.upper())  # "PYTHON PROGRAMMING"
+print(text.title())  # "Python Programming"
 
 text = "$$ Python $ Progra$mming$$"
-print(text.strip("$"))  # removes leading and trailing '$' not spaces. -> "Python $ Progra$mming"
+print(
+    text.strip("$")
+)  # removes leading and trailing '$' not spaces. -> "Python $ Progra$mming"
 
 txt = "I love Python programming with Python"
 
 # Check if something exists
-print("Python" in txt) # True
-print(txt.startswith("I")) # True
-print(txt.endswith("Python")) # True
+print("Python" in txt)  # True
+print(txt.startswith("I"))  # True
+print(txt.endswith("Python"))  # True
 
 # Find position and frequency
-print(txt.find("Python")) # 7 (first occurrence)
-print(txt.count("Python")) # 2 (number of times)
+print(txt.find("Python"))  # 7 (first occurrence)
+print(txt.count("Python"))  # 2 (number of times)
 
 # Replace
 new_txt = txt.replace("Python", "JavaScript")
@@ -96,6 +98,6 @@ for color in colors:
 
 # While loops
 i = 0
-while i<5:
+while i < 5:
     print(f"index: {i}")
-    i+=1
+    i += 1
