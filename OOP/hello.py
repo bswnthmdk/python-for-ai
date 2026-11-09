@@ -12,11 +12,6 @@ class Car:
 
 
 my_car = Car()
-your_car = Car()
-
 
 my_car.set_car("Toyota", "RAV4")
 my_car.get_car()
-
-your_car.set_car("Honda", "CRV")
-your_car.get_car()
