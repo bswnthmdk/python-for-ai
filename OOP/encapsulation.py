@@ -3,11 +3,13 @@ class ATM:
         self.__balance = init_amount
 
     def deposit(self, amount):
-        self.__balance = self.__balance + amount
+        self.__balance += amount
         return f"Updated balance: {self.__balance}"
 
     def withdraw(self, amount):
-        self.__balance = self.__balance - amount
+        if amount > self.__balance:
+            return "Insufficient balance"
+        self.__balance -= amount
         return f"Updated balance: {self.__balance}"
 
     def view_balance(self):

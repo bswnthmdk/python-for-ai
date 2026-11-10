@@ -4,6 +4,7 @@ class Student:
     def __init__(self, age):
         self.age = age
 
+    # decorators
     @staticmethod
     def display_name():
         return f"Name: {Student.name}"
