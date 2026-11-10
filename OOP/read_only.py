@@ -15,6 +15,3 @@ my_bank = Bank(5000)
 # Accessing the property without parentheses
 # print(my_bank.get_account_number()) # Error: () shoudn't be used when accessing a property.
 print(my_bank.get_account_number)
-
-# This will raise an error because get_account_number is read-only
-# my_bank.get_account_number = 9876543210
